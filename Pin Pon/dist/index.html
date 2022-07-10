@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+  <meta charset="UTF-8">
+  <title>Ping-Pong</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<svg id="stage" viewBox="0 0 1000 600" style="opacity:0">
+  <text class="t1" x="250" y="340" fill="#333" text-anchor="middle">0</text>
+  <text class="t2" x="750" y="340" fill="#333" text-anchor="middle"> 0</text>
+  
+  <rect fill="#333" x="49.5%" width="0.5%" height="100%" />
+  
+  <circle class="ball" cx="8" cy="10" r="10" fill="#fff" />
+
+  <rect class="p1" opacity="0.5" fill="#09f" width="10" height="60" />
+  <rect class="p2" opacity="0.5" x="990" fill="#e1d" width="10" height="60" />
+</svg>
+<!-- partial -->
+  <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
